@@ -81,7 +81,7 @@ public class Register extends HttpServlet {
 			flag = userDB.addUser(userInfo);
 			System.out.println(flag);
 
-			// 로그인 성공시 main.jsp로 이동
+			// 가입 성공시 main.jsp로 이동
 			viewPage = "main.jsp";
 		}
 
